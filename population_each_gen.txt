@@ -1,0 +1,650 @@
+0
+**********************
+100sqrt=>tan, END
+tan=>add, END
+add=>8.5, 0.0, END
+8.5=>END
+0.0=>END
+
+sqrt=>cos, END
+cos=>8.5, END
+8.5=>END
+
+absolute=>add, END
+add=>cos, absolute, END
+cos=>8.5, END
+8.5=>END
+absolute=>X0, END
+X0=>END
+
+absolute=>sqrt, END
+sqrt=>tan, END
+tan=>5.0, END
+5.0=>END
+
+add=>X2, add, END
+X2=>END
+add=>cos, div, END
+cos=>2.0, END
+2.0=>END
+div=>5.0, 5.0, END
+5.0=>END
+5.0=>END
+
+sqrt=>X11, END
+X11=>END
+
+add=>sub, sin, END
+sub=>5.0, add, END
+5.0=>END
+add=>0.0, 0.0, END
+0.0=>END
+0.0=>END
+sin=>5.0, END
+5.0=>END
+
+mul=>add, add, END
+add=>sqrt, tan, END
+sqrt=>X8, END
+X8=>END
+tan=>0.0, END
+0.0=>END
+add=>2.0, 8.5, END
+2.0=>END
+8.5=>END
+
+add=>X11, cos, END
+X11=>END
+cos=>cos, END
+cos=>8.5, END
+8.5=>END
+
+add=>div, X0, END
+div=>tan, sub, END
+tan=>X12, END
+X12=>END
+sub=>X6, X3, END
+X6=>END
+X3=>END
+X0=>END
+
+cos=>sub, END
+sub=>absolute, 5.0, END
+absolute=>8.5, END
+8.5=>END
+5.0=>END
+
+sqrt=>sqrt, END
+sqrt=>absolute, END
+absolute=>5.0, END
+5.0=>END
+
+sqrt=>absolute, END
+absolute=>X0, END
+X0=>END
+
+sqrt=>cos, END
+cos=>mul, END
+mul=>2.0, 5.0, END
+2.0=>END
+5.0=>END
+
+div=>sub, 2.0, END
+sub=>2.0, 8.5, END
+2.0=>END
+8.5=>END
+2.0=>END
+
+absolute=>mul, END
+mul=>sin, sin, END
+sin=>8.5, END
+8.5=>END
+sin=>2.0, END
+2.0=>END
+
+add=>sub, 2.0, END
+sub=>sqrt, mul, END
+sqrt=>2.0, END
+2.0=>END
+mul=>5.0, 0.0, END
+5.0=>END
+0.0=>END
+2.0=>END
+
+add=>absolute, absolute, END
+absolute=>sin, END
+sin=>2.0, END
+2.0=>END
+absolute=>X9, END
+X9=>END
+
+sqrt=>sqrt, END
+sqrt=>div, END
+div=>sqrt, sin, END
+sqrt=>X0, END
+X0=>END
+sin=>X0, END
+X0=>END
+
+sqrt=>tan, END
+tan=>tan, END
+tan=>5.0, END
+5.0=>END
+
+sqrt=>X5, END
+X5=>END
+
+mul=>add, sub, END
+add=>sqrt, tan, END
+sqrt=>X8, END
+X8=>END
+tan=>0.0, END
+0.0=>END
+sub=>sub, add, END
+sub=>0.0, 5.0, END
+0.0=>END
+5.0=>END
+add=>0.0, X0, END
+0.0=>END
+X0=>END
+
+cos=>X9, END
+X9=>END
+
+sqrt=>absolute, END
+absolute=>cos, END
+cos=>X7, END
+X7=>END
+
+add=>tan, sqrt, END
+tan=>cos, END
+cos=>X8, END
+X8=>END
+sqrt=>8.5, END
+8.5=>END
+
+add=>sqrt, sin, END
+sqrt=>sub, END
+sub=>X9, X6, END
+X9=>END
+X6=>END
+sin=>mul, END
+mul=>0.0, add, END
+0.0=>END
+add=>mul, sin, END
+mul=>0.0, X0, END
+0.0=>END
+X0=>END
+sin=>X0, END
+X0=>END
+
+sqrt=>X12, END
+X12=>END
+
+sin=>tan, END
+tan=>add, END
+add=>8.5, 2.0, END
+8.5=>END
+2.0=>END
+
+sqrt=>sqrt, END
+sqrt=>sub, END
+sub=>absolute, cos, END
+absolute=>8.5, END
+8.5=>END
+cos=>0.0, END
+0.0=>END
+
+sin=>X2, END
+X2=>END
+
+absolute=>5.0, END
+5.0=>END
+
+sqrt=>sqrt, END
+sqrt=>cos, END
+cos=>X12, END
+X12=>END
+
+sqrt=>X3, END
+X3=>END
+
+absolute=>tan, END
+tan=>8.5, END
+8.5=>END
+
+sub=>X9, sin, END
+X9=>END
+sin=>2.0, END
+2.0=>END
+
+sin=>add, END
+add=>add, sub, END
+add=>X3, X6, END
+X3=>END
+X6=>END
+sub=>sqrt, div, END
+sqrt=>X0, END
+X0=>END
+div=>X0, 2.0, END
+X0=>END
+2.0=>END
+
+add=>div, add, END
+div=>sqrt, sub, END
+sqrt=>0.0, END
+0.0=>END
+sub=>5.0, X0, END
+5.0=>END
+X0=>END
+add=>X5, 0.0, END
+X5=>END
+0.0=>END
+
+sin=>X2, END
+X2=>END
+
+sin=>absolute, END
+absolute=>5.0, END
+5.0=>END
+
+add=>sqrt, sqrt, END
+sqrt=>5.0, END
+5.0=>END
+sqrt=>sub, END
+sub=>X8, X7, END
+X8=>END
+X7=>END
+
+absolute=>sub, END
+sub=>sin, absolute, END
+sin=>0.0, END
+0.0=>END
+absolute=>0.0, END
+0.0=>END
+
+sin=>tan, END
+tan=>8.5, END
+8.5=>END
+
+cos=>cos, END
+cos=>X0, END
+X0=>END
+
+sqrt=>absolute, END
+absolute=>0.0, END
+0.0=>END
+
+div=>div, absolute, END
+div=>X0, X6, END
+X0=>END
+X6=>END
+absolute=>8.5, END
+8.5=>END
+
+cos=>tan, END
+tan=>sin, END
+sin=>X12, END
+X12=>END
+
+sqrt=>sub, END
+sub=>sin, cos, END
+sin=>X6, END
+X6=>END
+cos=>mul, END
+mul=>5.0, 5.0, END
+5.0=>END
+5.0=>END
+
+absolute=>sqrt, END
+sqrt=>div, END
+div=>5.0, cos, END
+5.0=>END
+cos=>add, END
+add=>5.0, 2.0, END
+5.0=>END
+2.0=>END
+
+tan=>X1, END
+X1=>END
+
+div=>X10, 2.0, END
+X10=>END
+2.0=>END
+
+add=>div, sqrt, END
+div=>sqrt, add, END
+sqrt=>0.0, END
+0.0=>END
+add=>X2, X1, END
+X2=>END
+X1=>END
+sqrt=>tan, END
+tan=>8.5, END
+8.5=>END
+
+absolute=>8.5, END
+8.5=>END
+
+sin=>tan, END
+tan=>tan, END
+tan=>8.5, END
+8.5=>END
+
+cos=>absolute, END
+absolute=>cos, END
+cos=>X3, END
+X3=>END
+
+absolute=>sqrt, END
+sqrt=>X0, END
+X0=>END
+
+add=>X2, absolute, END
+X2=>END
+absolute=>X0, END
+X0=>END
+
+cos=>sub, END
+sub=>cos, 5.0, END
+cos=>cos, END
+cos=>8.5, END
+8.5=>END
+5.0=>END
+
+absolute=>X0, END
+X0=>END
+
+absolute=>sin, END
+sin=>5.0, END
+5.0=>END
+
+add=>div, X2, END
+div=>tan, sub, END
+tan=>X12, END
+X12=>END
+sub=>X6, mul, END
+X6=>END
+mul=>tan, mul, END
+tan=>X0, END
+X0=>END
+mul=>8.5, X0, END
+8.5=>END
+X0=>END
+X2=>END
+
+absolute=>mul, END
+mul=>0.0, 0.0, END
+0.0=>END
+0.0=>END
+
+sqrt=>cos, END
+cos=>mul, END
+mul=>5.0, 5.0, END
+5.0=>END
+5.0=>END
+
+cos=>sub, END
+sub=>absolute, mul, END
+absolute=>X0, END
+X0=>END
+mul=>0.0, X0, END
+0.0=>END
+X0=>END
+
+mul=>add, X0, END
+add=>sqrt, tan, END
+sqrt=>X8, END
+X8=>END
+tan=>X5, END
+X5=>END
+X0=>END
+
+sin=>sqrt, END
+sqrt=>sin, END
+sin=>5.0, END
+5.0=>END
+
+add=>div, X2, END
+div=>tan, sub, END
+tan=>X12, END
+X12=>END
+sub=>X6, X3, END
+X6=>END
+X3=>END
+X2=>END
+
+add=>sqrt, absolute, END
+sqrt=>5.0, END
+5.0=>END
+absolute=>div, END
+div=>X0, 2.0, END
+X0=>END
+2.0=>END
+
+cos=>X1, END
+X1=>END
+
+add=>absolute, add, END
+absolute=>X7, END
+X7=>END
+add=>add, X6, END
+add=>X0, 5.0, END
+X0=>END
+5.0=>END
+X6=>END
+
+add=>div, X2, END
+div=>tan, sub, END
+tan=>sqrt, END
+sqrt=>5.0, END
+5.0=>END
+sub=>X6, X3, END
+X6=>END
+X3=>END
+X2=>END
+
+add=>sqrt, sin, END
+sqrt=>sub, END
+sub=>X9, X6, END
+X9=>END
+X6=>END
+sin=>mul, END
+mul=>0.0, cos, END
+0.0=>END
+cos=>cos, END
+cos=>2.0, END
+2.0=>END
+
+sub=>add, X7, END
+add=>absolute, 5.0, END
+absolute=>X0, END
+X0=>END
+5.0=>END
+X7=>END
+
+add=>X11, sqrt, END
+X11=>END
+sqrt=>X0, END
+X0=>END
+
+add=>sub, sin, END
+sub=>5.0, X0, END
+5.0=>END
+X0=>END
+sin=>5.0, END
+5.0=>END
+
+add=>sqrt, X8, END
+sqrt=>mul, END
+mul=>sin, mul, END
+sin=>8.5, END
+8.5=>END
+mul=>0.0, 8.5, END
+0.0=>END
+8.5=>END
+X8=>END
+
+add=>div, add, END
+div=>sqrt, add, END
+sqrt=>0.0, END
+0.0=>END
+add=>X2, X1, END
+X2=>END
+X1=>END
+add=>X5, 0.0, END
+X5=>END
+0.0=>END
+
+add=>absolute, add, END
+absolute=>add, END
+add=>cos, absolute, END
+cos=>5.0, END
+5.0=>END
+absolute=>5.0, END
+5.0=>END
+add=>X7, X6, END
+X7=>END
+X6=>END
+
+add=>X2, absolute, END
+X2=>END
+absolute=>5.0, END
+5.0=>END
+
+add=>absolute, mul, END
+absolute=>X7, END
+X7=>END
+mul=>tan, mul, END
+tan=>8.5, END
+8.5=>END
+mul=>0.0, X0, END
+0.0=>END
+X0=>END
+
+absolute=>cos, END
+cos=>sqrt, END
+sqrt=>X0, END
+X0=>END
+
+absolute=>sin, END
+sin=>div, END
+div=>X0, 8.5, END
+X0=>END
+8.5=>END
+
+add=>X2, X7, END
+X2=>END
+X7=>END
+
+cos=>sub, END
+sub=>X9, div, END
+X9=>END
+div=>8.5, X0, END
+8.5=>END
+X0=>END
+
+sin=>sin, END
+sin=>cos, END
+cos=>5.0, END
+5.0=>END
+
+div=>tan, 2.0, END
+tan=>5.0, END
+5.0=>END
+2.0=>END
+
+add=>sub, cos, END
+sub=>5.0, X0, END
+5.0=>END
+X0=>END
+cos=>cos, END
+cos=>X0, END
+X0=>END
+
+add=>sub, add, END
+sub=>tan, add, END
+tan=>X0, END
+X0=>END
+add=>5.0, 5.0, END
+5.0=>END
+5.0=>END
+add=>X5, 0.0, END
+X5=>END
+0.0=>END
+
+tan=>8.5, END
+8.5=>END
+
+add=>X11, div, END
+X11=>END
+div=>0.0, 8.5, END
+0.0=>END
+8.5=>END
+
+absolute=>div, END
+div=>8.5, X0, END
+8.5=>END
+X0=>END
+
+add=>tan, tan, END
+tan=>cos, END
+cos=>X8, END
+X8=>END
+tan=>2.0, END
+2.0=>END
+
+cos=>2.0, END
+2.0=>END
+
+add=>tan, sqrt, END
+tan=>cos, END
+cos=>X8, END
+X8=>END
+sqrt=>sub, END
+sub=>X8, sub, END
+X8=>END
+sub=>X0, X0, END
+X0=>END
+X0=>END
+
+absolute=>sqrt, END
+sqrt=>div, END
+div=>sqrt, 2.0, END
+sqrt=>2.0, END
+2.0=>END
+2.0=>END
+
+sqrt=>sqrt, END
+sqrt=>2.0, END
+2.0=>END
+
+absolute=>sqrt, END
+sqrt=>div, END
+div=>X9, 2.0, END
+X9=>END
+2.0=>END
+
+add=>tan, sqrt, END
+tan=>cos, END
+cos=>absolute, END
+absolute=>tan, END
+tan=>X0, END
+X0=>END
+sqrt=>sub, END
+sub=>X8, X7, END
+X8=>END
+X7=>END
+
+cos=>sin, END
+sin=>sin, END
+sin=>X2, END
+X2=>END
+
+sqrt=>0.0, END
+0.0=>END
+
+div=>X10, X0, END
+X10=>END
+X0=>END
+

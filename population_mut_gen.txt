@@ -1,0 +1,1473 @@
+**********************
+Uniform
+Original 
+sqrt=>tan, END
+tan=>cos, END
+cos=>X2, END
+X2=>END
+Progeny 
+sqrt=>tan, END
+tan=>add, END
+add=>8.5, 0.0, END
+8.5=>END
+0.0=>END
+
+**********************
+Uniform
+Original 
+sqrt=>X1, END
+X1=>END
+Progeny 
+sqrt=>cos, END
+cos=>8.5, END
+8.5=>END
+
+**********************
+Uniform
+Original 
+absolute=>X9, END
+X9=>END
+Progeny 
+absolute=>add, END
+add=>cos, absolute, END
+cos=>8.5, END
+8.5=>END
+absolute=>X0, END
+X0=>END
+
+**********************
+Uniform
+Original 
+absolute=>cos, END
+cos=>X4, END
+X4=>END
+Progeny 
+absolute=>sqrt, END
+sqrt=>tan, END
+tan=>5.0, END
+5.0=>END
+
+**********************
+Uniform
+Original 
+add=>X2, X9, END
+X2=>END
+X9=>END
+Progeny 
+add=>X2, add, END
+X2=>END
+add=>cos, div, END
+cos=>2.0, END
+2.0=>END
+div=>5.0, 5.0, END
+5.0=>END
+5.0=>END
+
+**********************
+Node-Replacement
+Original 
+sqrt=>X1, END
+X1=>END
+Progeny 
+sqrt=>X11, END
+X11=>END
+
+**********************
+Uniform
+Original 
+add=>sub, sin, END
+sub=>5.0, X0, END
+5.0=>END
+X0=>END
+sin=>5.0, END
+5.0=>END
+Progeny 
+add=>sub, sin, END
+sub=>5.0, add, END
+5.0=>END
+add=>0.0, 0.0, END
+0.0=>END
+0.0=>END
+sin=>5.0, END
+5.0=>END
+
+**********************
+Uniform
+Original 
+mul=>add, X0, END
+add=>sqrt, tan, END
+sqrt=>X8, END
+X8=>END
+tan=>0.0, END
+0.0=>END
+X0=>END
+Progeny 
+mul=>add, add, END
+add=>sqrt, tan, END
+sqrt=>X8, END
+X8=>END
+tan=>0.0, END
+0.0=>END
+add=>2.0, 8.5, END
+2.0=>END
+8.5=>END
+
+**********************
+Uniform
+Original 
+add=>X11, 2.0, END
+X11=>END
+2.0=>END
+Progeny 
+add=>X11, cos, END
+X11=>END
+cos=>cos, END
+cos=>8.5, END
+8.5=>END
+
+**********************
+Node-Replacement
+Original 
+add=>div, X2, END
+div=>tan, sub, END
+tan=>X12, END
+X12=>END
+sub=>X6, X3, END
+X6=>END
+X3=>END
+X2=>END
+Progeny 
+add=>div, X0, END
+div=>tan, sub, END
+tan=>X12, END
+X12=>END
+sub=>X6, X3, END
+X6=>END
+X3=>END
+X0=>END
+
+**********************
+Uniform
+Original 
+cos=>sub, END
+sub=>X8, 5.0, END
+X8=>END
+5.0=>END
+Progeny 
+cos=>sub, END
+sub=>absolute, 5.0, END
+absolute=>8.5, END
+8.5=>END
+5.0=>END
+
+**********************
+Node-Replacement
+Original 
+sqrt=>sqrt, END
+sqrt=>sin, END
+sin=>5.0, END
+5.0=>END
+Progeny 
+sqrt=>sqrt, END
+sqrt=>absolute, END
+absolute=>5.0, END
+5.0=>END
+
+**********************
+Uniform
+Original 
+sqrt=>tan, END
+tan=>cos, END
+cos=>X2, END
+X2=>END
+Progeny 
+sqrt=>absolute, END
+absolute=>X0, END
+X0=>END
+
+**********************
+Uniform
+Original 
+sqrt=>cos, END
+cos=>cos, END
+cos=>X7, END
+X7=>END
+Progeny 
+sqrt=>cos, END
+cos=>mul, END
+mul=>2.0, 5.0, END
+2.0=>END
+5.0=>END
+
+**********************
+Uniform
+Original 
+div=>X10, 2.0, END
+X10=>END
+2.0=>END
+Progeny 
+div=>sub, 2.0, END
+sub=>2.0, 8.5, END
+2.0=>END
+8.5=>END
+2.0=>END
+
+**********************
+Uniform
+Original 
+absolute=>8.5, END
+8.5=>END
+Progeny 
+absolute=>mul, END
+mul=>sin, sin, END
+sin=>8.5, END
+8.5=>END
+sin=>2.0, END
+2.0=>END
+
+**********************
+Uniform
+Original 
+add=>X11, 2.0, END
+X11=>END
+2.0=>END
+Progeny 
+add=>sub, 2.0, END
+sub=>sqrt, mul, END
+sqrt=>2.0, END
+2.0=>END
+mul=>5.0, 0.0, END
+5.0=>END
+0.0=>END
+2.0=>END
+
+**********************
+Uniform
+Original 
+add=>sqrt, absolute, END
+sqrt=>5.0, END
+5.0=>END
+absolute=>X9, END
+X9=>END
+Progeny 
+add=>absolute, absolute, END
+absolute=>sin, END
+sin=>2.0, END
+2.0=>END
+absolute=>X9, END
+X9=>END
+
+**********************
+Uniform
+Original 
+sqrt=>sqrt, END
+sqrt=>sin, END
+sin=>5.0, END
+5.0=>END
+Progeny 
+sqrt=>sqrt, END
+sqrt=>div, END
+div=>sqrt, sin, END
+sqrt=>X0, END
+X0=>END
+sin=>X0, END
+X0=>END
+
+**********************
+Uniform
+Original 
+sqrt=>X4, END
+X4=>END
+Progeny 
+sqrt=>tan, END
+tan=>tan, END
+tan=>5.0, END
+5.0=>END
+
+**********************
+Node-Replacement
+Original 
+sqrt=>X1, END
+X1=>END
+Progeny 
+sqrt=>X5, END
+X5=>END
+
+**********************
+Uniform
+Original 
+mul=>add, X0, END
+add=>sqrt, tan, END
+sqrt=>X8, END
+X8=>END
+tan=>0.0, END
+0.0=>END
+X0=>END
+Progeny 
+mul=>add, sub, END
+add=>sqrt, tan, END
+sqrt=>X8, END
+X8=>END
+tan=>0.0, END
+0.0=>END
+sub=>sub, add, END
+sub=>0.0, 5.0, END
+0.0=>END
+5.0=>END
+add=>0.0, X0, END
+0.0=>END
+X0=>END
+
+**********************
+Node-Replacement
+Original 
+absolute=>X9, END
+X9=>END
+Progeny 
+cos=>X9, END
+X9=>END
+
+**********************
+Node-Replacement
+Original 
+sqrt=>cos, END
+cos=>cos, END
+cos=>X7, END
+X7=>END
+Progeny 
+sqrt=>absolute, END
+absolute=>cos, END
+cos=>X7, END
+X7=>END
+
+**********************
+Uniform
+Original 
+add=>tan, sqrt, END
+tan=>cos, END
+cos=>X8, END
+X8=>END
+sqrt=>sub, END
+sub=>X8, X7, END
+X8=>END
+X7=>END
+Progeny 
+add=>tan, sqrt, END
+tan=>cos, END
+cos=>X8, END
+X8=>END
+sqrt=>8.5, END
+8.5=>END
+
+**********************
+Uniform
+Original 
+add=>sqrt, sin, END
+sqrt=>sub, END
+sub=>X9, X6, END
+X9=>END
+X6=>END
+sin=>mul, END
+mul=>0.0, X5, END
+0.0=>END
+X5=>END
+Progeny 
+add=>sqrt, sin, END
+sqrt=>sub, END
+sub=>X9, X6, END
+X9=>END
+X6=>END
+sin=>mul, END
+mul=>0.0, add, END
+0.0=>END
+add=>mul, sin, END
+mul=>0.0, X0, END
+0.0=>END
+X0=>END
+sin=>X0, END
+X0=>END
+
+**********************
+Node-Replacement
+Original 
+sqrt=>X4, END
+X4=>END
+Progeny 
+sqrt=>X12, END
+X12=>END
+
+**********************
+Uniform
+Original 
+sin=>tan, END
+tan=>X9, END
+X9=>END
+Progeny 
+sin=>tan, END
+tan=>add, END
+add=>8.5, 2.0, END
+8.5=>END
+2.0=>END
+
+**********************
+Uniform
+Original 
+sqrt=>sqrt, END
+sqrt=>sqrt, END
+sqrt=>X2, END
+X2=>END
+Progeny 
+sqrt=>sqrt, END
+sqrt=>sub, END
+sub=>absolute, cos, END
+absolute=>8.5, END
+8.5=>END
+cos=>0.0, END
+0.0=>END
+
+**********************
+Node-Replacement
+Original 
+sin=>X6, END
+X6=>END
+Progeny 
+sin=>X2, END
+X2=>END
+
+**********************
+Node-Replacement
+Original 
+absolute=>8.5, END
+8.5=>END
+Progeny 
+absolute=>5.0, END
+5.0=>END
+
+**********************
+Node-Replacement
+Original 
+sqrt=>sqrt, END
+sqrt=>cos, END
+cos=>X10, END
+X10=>END
+Progeny 
+sqrt=>sqrt, END
+sqrt=>cos, END
+cos=>X12, END
+X12=>END
+
+**********************
+Node-Replacement
+Original 
+sqrt=>X1, END
+X1=>END
+Progeny 
+sqrt=>X3, END
+X3=>END
+
+**********************
+Uniform
+Original 
+absolute=>cos, END
+cos=>X4, END
+X4=>END
+Progeny 
+absolute=>tan, END
+tan=>8.5, END
+8.5=>END
+
+**********************
+Uniform
+Original 
+sub=>X9, X2, END
+X9=>END
+X2=>END
+Progeny 
+sub=>X9, sin, END
+X9=>END
+sin=>2.0, END
+2.0=>END
+
+**********************
+Uniform
+Original 
+sin=>add, END
+add=>add, add, END
+add=>X3, X6, END
+X3=>END
+X6=>END
+add=>5.0, X9, END
+5.0=>END
+X9=>END
+Progeny 
+sin=>add, END
+add=>add, sub, END
+add=>X3, X6, END
+X3=>END
+X6=>END
+sub=>sqrt, div, END
+sqrt=>X0, END
+X0=>END
+div=>X0, 2.0, END
+X0=>END
+2.0=>END
+
+**********************
+Uniform
+Original 
+add=>div, add, END
+div=>sqrt, add, END
+sqrt=>0.0, END
+0.0=>END
+add=>X2, X1, END
+X2=>END
+X1=>END
+add=>X5, 0.0, END
+X5=>END
+0.0=>END
+Progeny 
+add=>div, add, END
+div=>sqrt, sub, END
+sqrt=>0.0, END
+0.0=>END
+sub=>5.0, X0, END
+5.0=>END
+X0=>END
+add=>X5, 0.0, END
+X5=>END
+0.0=>END
+
+**********************
+Node-Replacement
+Original 
+sin=>X3, END
+X3=>END
+Progeny 
+sin=>X2, END
+X2=>END
+
+**********************
+Uniform
+Original 
+sin=>2.0, END
+2.0=>END
+Progeny 
+sin=>absolute, END
+absolute=>5.0, END
+5.0=>END
+
+**********************
+Uniform
+Original 
+add=>tan, sqrt, END
+tan=>cos, END
+cos=>X8, END
+X8=>END
+sqrt=>sub, END
+sub=>X8, X7, END
+X8=>END
+X7=>END
+Progeny 
+add=>sqrt, sqrt, END
+sqrt=>5.0, END
+5.0=>END
+sqrt=>sub, END
+sub=>X8, X7, END
+X8=>END
+X7=>END
+
+**********************
+Uniform
+Original 
+absolute=>X9, END
+X9=>END
+Progeny 
+absolute=>sub, END
+sub=>sin, absolute, END
+sin=>0.0, END
+0.0=>END
+absolute=>0.0, END
+0.0=>END
+
+**********************
+Node-Replacement
+Original 
+sin=>tan, END
+tan=>X9, END
+X9=>END
+Progeny 
+sin=>tan, END
+tan=>8.5, END
+8.5=>END
+
+**********************
+Uniform
+Original 
+cos=>X0, END
+X0=>END
+Progeny 
+cos=>cos, END
+cos=>X0, END
+X0=>END
+
+**********************
+Uniform
+Original 
+sqrt=>tan, END
+tan=>sub, END
+sub=>X11, X3, END
+X11=>END
+X3=>END
+Progeny 
+sqrt=>absolute, END
+absolute=>0.0, END
+0.0=>END
+
+**********************
+Uniform
+Original 
+div=>div, X8, END
+div=>X0, X6, END
+X0=>END
+X6=>END
+X8=>END
+Progeny 
+div=>div, absolute, END
+div=>X0, X6, END
+X0=>END
+X6=>END
+absolute=>8.5, END
+8.5=>END
+
+**********************
+Node-Replacement
+Original 
+cos=>sin, END
+sin=>sin, END
+sin=>X12, END
+X12=>END
+Progeny 
+cos=>tan, END
+tan=>sin, END
+sin=>X12, END
+X12=>END
+
+**********************
+Uniform
+Original 
+sqrt=>sub, END
+sub=>sin, cos, END
+sin=>X6, END
+X6=>END
+cos=>X10, END
+X10=>END
+Progeny 
+sqrt=>sub, END
+sub=>sin, cos, END
+sin=>X6, END
+X6=>END
+cos=>mul, END
+mul=>5.0, 5.0, END
+5.0=>END
+5.0=>END
+
+**********************
+Uniform
+Original 
+absolute=>sqrt, END
+sqrt=>div, END
+div=>5.0, 2.0, END
+5.0=>END
+2.0=>END
+Progeny 
+absolute=>sqrt, END
+sqrt=>div, END
+div=>5.0, cos, END
+5.0=>END
+cos=>add, END
+add=>5.0, 2.0, END
+5.0=>END
+2.0=>END
+
+**********************
+Node-Replacement
+Original 
+sqrt=>X1, END
+X1=>END
+Progeny 
+tan=>X1, END
+X1=>END
+
+**********************
+Node-Replacement
+Original 
+div=>X10, 2.0, END
+X10=>END
+2.0=>END
+Progeny 
+div=>X10, 2.0, END
+X10=>END
+2.0=>END
+
+**********************
+Uniform
+Original 
+add=>div, add, END
+div=>sqrt, add, END
+sqrt=>0.0, END
+0.0=>END
+add=>X2, X1, END
+X2=>END
+X1=>END
+add=>X5, 0.0, END
+X5=>END
+0.0=>END
+Progeny 
+add=>div, sqrt, END
+div=>sqrt, add, END
+sqrt=>0.0, END
+0.0=>END
+add=>X2, X1, END
+X2=>END
+X1=>END
+sqrt=>tan, END
+tan=>8.5, END
+8.5=>END
+
+**********************
+Node-Replacement
+Original 
+absolute=>8.5, END
+8.5=>END
+Progeny 
+absolute=>8.5, END
+8.5=>END
+
+**********************
+Uniform
+Original 
+sin=>sin, END
+sin=>X6, END
+X6=>END
+Progeny 
+sin=>tan, END
+tan=>tan, END
+tan=>8.5, END
+8.5=>END
+
+**********************
+Node-Replacement
+Original 
+cos=>absolute, END
+absolute=>cos, END
+cos=>X3, END
+X3=>END
+Progeny 
+cos=>absolute, END
+absolute=>cos, END
+cos=>X3, END
+X3=>END
+
+**********************
+Uniform
+Original 
+absolute=>8.5, END
+8.5=>END
+Progeny 
+absolute=>sqrt, END
+sqrt=>X0, END
+X0=>END
+
+**********************
+Uniform
+Original 
+add=>X2, X9, END
+X2=>END
+X9=>END
+Progeny 
+add=>X2, absolute, END
+X2=>END
+absolute=>X0, END
+X0=>END
+
+**********************
+Uniform
+Original 
+cos=>sub, END
+sub=>X8, 5.0, END
+X8=>END
+5.0=>END
+Progeny 
+cos=>sub, END
+sub=>cos, 5.0, END
+cos=>cos, END
+cos=>8.5, END
+8.5=>END
+5.0=>END
+
+**********************
+Node-Replacement
+Original 
+absolute=>X9, END
+X9=>END
+Progeny 
+absolute=>X0, END
+X0=>END
+
+**********************
+Uniform
+Original 
+absolute=>X9, END
+X9=>END
+Progeny 
+absolute=>sin, END
+sin=>5.0, END
+5.0=>END
+
+**********************
+Uniform
+Original 
+add=>div, X2, END
+div=>tan, sub, END
+tan=>X12, END
+X12=>END
+sub=>X6, X3, END
+X6=>END
+X3=>END
+X2=>END
+Progeny 
+add=>div, X2, END
+div=>tan, sub, END
+tan=>X12, END
+X12=>END
+sub=>X6, mul, END
+X6=>END
+mul=>tan, mul, END
+tan=>X0, END
+X0=>END
+mul=>8.5, X0, END
+8.5=>END
+X0=>END
+X2=>END
+
+**********************
+Uniform
+Original 
+absolute=>0.0, END
+0.0=>END
+Progeny 
+absolute=>mul, END
+mul=>0.0, 0.0, END
+0.0=>END
+0.0=>END
+
+**********************
+Uniform
+Original 
+sqrt=>cos, END
+cos=>X2, END
+X2=>END
+Progeny 
+sqrt=>cos, END
+cos=>mul, END
+mul=>5.0, 5.0, END
+5.0=>END
+5.0=>END
+
+**********************
+Uniform
+Original 
+cos=>X12, END
+X12=>END
+Progeny 
+cos=>sub, END
+sub=>absolute, mul, END
+absolute=>X0, END
+X0=>END
+mul=>0.0, X0, END
+0.0=>END
+X0=>END
+
+**********************
+Node-Replacement
+Original 
+mul=>add, X0, END
+add=>sqrt, tan, END
+sqrt=>X8, END
+X8=>END
+tan=>0.0, END
+0.0=>END
+X0=>END
+Progeny 
+mul=>add, X0, END
+add=>sqrt, tan, END
+sqrt=>X8, END
+X8=>END
+tan=>X5, END
+X5=>END
+X0=>END
+
+**********************
+Node-Replacement
+Original 
+sqrt=>sqrt, END
+sqrt=>sin, END
+sin=>5.0, END
+5.0=>END
+Progeny 
+sin=>sqrt, END
+sqrt=>sin, END
+sin=>5.0, END
+5.0=>END
+
+**********************
+Node-Replacement
+Original 
+add=>div, X2, END
+div=>tan, sub, END
+tan=>X12, END
+X12=>END
+sub=>X6, X3, END
+X6=>END
+X3=>END
+X2=>END
+Progeny 
+add=>div, X2, END
+div=>tan, sub, END
+tan=>X12, END
+X12=>END
+sub=>X6, X3, END
+X6=>END
+X3=>END
+X2=>END
+
+**********************
+Uniform
+Original 
+add=>sqrt, absolute, END
+sqrt=>5.0, END
+5.0=>END
+absolute=>X9, END
+X9=>END
+Progeny 
+add=>sqrt, absolute, END
+sqrt=>5.0, END
+5.0=>END
+absolute=>div, END
+div=>X0, 2.0, END
+X0=>END
+2.0=>END
+
+**********************
+Node-Replacement
+Original 
+cos=>X0, END
+X0=>END
+Progeny 
+cos=>X1, END
+X1=>END
+
+**********************
+Uniform
+Original 
+add=>absolute, add, END
+absolute=>X7, END
+X7=>END
+add=>X7, X6, END
+X7=>END
+X6=>END
+Progeny 
+add=>absolute, add, END
+absolute=>X7, END
+X7=>END
+add=>add, X6, END
+add=>X0, 5.0, END
+X0=>END
+5.0=>END
+X6=>END
+
+**********************
+Uniform
+Original 
+add=>div, X2, END
+div=>tan, sub, END
+tan=>X12, END
+X12=>END
+sub=>X6, X3, END
+X6=>END
+X3=>END
+X2=>END
+Progeny 
+add=>div, X2, END
+div=>tan, sub, END
+tan=>sqrt, END
+sqrt=>5.0, END
+5.0=>END
+sub=>X6, X3, END
+X6=>END
+X3=>END
+X2=>END
+
+**********************
+Uniform
+Original 
+add=>sqrt, sin, END
+sqrt=>sub, END
+sub=>X9, X6, END
+X9=>END
+X6=>END
+sin=>mul, END
+mul=>0.0, X5, END
+0.0=>END
+X5=>END
+Progeny 
+add=>sqrt, sin, END
+sqrt=>sub, END
+sub=>X9, X6, END
+X9=>END
+X6=>END
+sin=>mul, END
+mul=>0.0, cos, END
+0.0=>END
+cos=>cos, END
+cos=>2.0, END
+2.0=>END
+
+**********************
+Uniform
+Original 
+sub=>X0, X7, END
+X0=>END
+X7=>END
+Progeny 
+sub=>add, X7, END
+add=>absolute, 5.0, END
+absolute=>X0, END
+X0=>END
+5.0=>END
+X7=>END
+
+**********************
+Uniform
+Original 
+add=>X11, 2.0, END
+X11=>END
+2.0=>END
+Progeny 
+add=>X11, sqrt, END
+X11=>END
+sqrt=>X0, END
+X0=>END
+
+**********************
+Node-Replacement
+Original 
+add=>sub, sin, END
+sub=>5.0, X0, END
+5.0=>END
+X0=>END
+sin=>5.0, END
+5.0=>END
+Progeny 
+add=>sub, sin, END
+sub=>5.0, X0, END
+5.0=>END
+X0=>END
+sin=>5.0, END
+5.0=>END
+
+**********************
+Uniform
+Original 
+add=>sqrt, X8, END
+sqrt=>0.0, END
+0.0=>END
+X8=>END
+Progeny 
+add=>sqrt, X8, END
+sqrt=>mul, END
+mul=>sin, mul, END
+sin=>8.5, END
+8.5=>END
+mul=>0.0, 8.5, END
+0.0=>END
+8.5=>END
+X8=>END
+
+**********************
+Node-Replacement
+Original 
+add=>div, add, END
+div=>sqrt, add, END
+sqrt=>0.0, END
+0.0=>END
+add=>X2, X1, END
+X2=>END
+X1=>END
+add=>X5, 0.0, END
+X5=>END
+0.0=>END
+Progeny 
+add=>div, add, END
+div=>sqrt, add, END
+sqrt=>0.0, END
+0.0=>END
+add=>X2, X1, END
+X2=>END
+X1=>END
+add=>X5, 0.0, END
+X5=>END
+0.0=>END
+
+**********************
+Uniform
+Original 
+add=>absolute, add, END
+absolute=>X7, END
+X7=>END
+add=>X7, X6, END
+X7=>END
+X6=>END
+Progeny 
+add=>absolute, add, END
+absolute=>add, END
+add=>cos, absolute, END
+cos=>5.0, END
+5.0=>END
+absolute=>5.0, END
+5.0=>END
+add=>X7, X6, END
+X7=>END
+X6=>END
+
+**********************
+Uniform
+Original 
+add=>X2, X9, END
+X2=>END
+X9=>END
+Progeny 
+add=>X2, absolute, END
+X2=>END
+absolute=>5.0, END
+5.0=>END
+
+**********************
+Uniform
+Original 
+add=>absolute, add, END
+absolute=>X7, END
+X7=>END
+add=>X7, X6, END
+X7=>END
+X6=>END
+Progeny 
+add=>absolute, mul, END
+absolute=>X7, END
+X7=>END
+mul=>tan, mul, END
+tan=>8.5, END
+8.5=>END
+mul=>0.0, X0, END
+0.0=>END
+X0=>END
+
+**********************
+Uniform
+Original 
+absolute=>cos, END
+cos=>X4, END
+X4=>END
+Progeny 
+absolute=>cos, END
+cos=>sqrt, END
+sqrt=>X0, END
+X0=>END
+
+**********************
+Uniform
+Original 
+absolute=>X9, END
+X9=>END
+Progeny 
+absolute=>sin, END
+sin=>div, END
+div=>X0, 8.5, END
+X0=>END
+8.5=>END
+
+**********************
+Node-Replacement
+Original 
+add=>X2, X9, END
+X2=>END
+X9=>END
+Progeny 
+add=>X2, X7, END
+X2=>END
+X7=>END
+
+**********************
+Uniform
+Original 
+cos=>sub, END
+sub=>X9, X5, END
+X9=>END
+X5=>END
+Progeny 
+cos=>sub, END
+sub=>X9, div, END
+X9=>END
+div=>8.5, X0, END
+8.5=>END
+X0=>END
+
+**********************
+Uniform
+Original 
+sin=>tan, END
+tan=>X9, END
+X9=>END
+Progeny 
+sin=>sin, END
+sin=>cos, END
+cos=>5.0, END
+5.0=>END
+
+**********************
+Uniform
+Original 
+div=>X10, 2.0, END
+X10=>END
+2.0=>END
+Progeny 
+div=>tan, 2.0, END
+tan=>5.0, END
+5.0=>END
+2.0=>END
+
+**********************
+Uniform
+Original 
+add=>sub, sin, END
+sub=>5.0, X0, END
+5.0=>END
+X0=>END
+sin=>5.0, END
+5.0=>END
+Progeny 
+add=>sub, cos, END
+sub=>5.0, X0, END
+5.0=>END
+X0=>END
+cos=>cos, END
+cos=>X0, END
+X0=>END
+
+**********************
+Uniform
+Original 
+add=>div, add, END
+div=>sqrt, add, END
+sqrt=>0.0, END
+0.0=>END
+add=>X2, X1, END
+X2=>END
+X1=>END
+add=>X5, 0.0, END
+X5=>END
+0.0=>END
+Progeny 
+add=>sub, add, END
+sub=>tan, add, END
+tan=>X0, END
+X0=>END
+add=>5.0, 5.0, END
+5.0=>END
+5.0=>END
+add=>X5, 0.0, END
+X5=>END
+0.0=>END
+
+**********************
+Node-Replacement
+Original 
+absolute=>8.5, END
+8.5=>END
+Progeny 
+tan=>8.5, END
+8.5=>END
+
+**********************
+Uniform
+Original 
+add=>X11, 2.0, END
+X11=>END
+2.0=>END
+Progeny 
+add=>X11, div, END
+X11=>END
+div=>0.0, 8.5, END
+0.0=>END
+8.5=>END
+
+**********************
+Uniform
+Original 
+absolute=>8.5, END
+8.5=>END
+Progeny 
+absolute=>div, END
+div=>8.5, X0, END
+8.5=>END
+X0=>END
+
+**********************
+Uniform
+Original 
+add=>tan, sqrt, END
+tan=>cos, END
+cos=>X8, END
+X8=>END
+sqrt=>sub, END
+sub=>X8, X7, END
+X8=>END
+X7=>END
+Progeny 
+add=>tan, tan, END
+tan=>cos, END
+cos=>X8, END
+X8=>END
+tan=>2.0, END
+2.0=>END
+
+**********************
+Node-Replacement
+Original 
+absolute=>2.0, END
+2.0=>END
+Progeny 
+cos=>2.0, END
+2.0=>END
+
+**********************
+Uniform
+Original 
+add=>tan, sqrt, END
+tan=>cos, END
+cos=>X8, END
+X8=>END
+sqrt=>sub, END
+sub=>X8, X7, END
+X8=>END
+X7=>END
+Progeny 
+add=>tan, sqrt, END
+tan=>cos, END
+cos=>X8, END
+X8=>END
+sqrt=>sub, END
+sub=>X8, sub, END
+X8=>END
+sub=>X0, X0, END
+X0=>END
+X0=>END
+
+**********************
+Uniform
+Original 
+absolute=>sqrt, END
+sqrt=>div, END
+div=>5.0, 2.0, END
+5.0=>END
+2.0=>END
+Progeny 
+absolute=>sqrt, END
+sqrt=>div, END
+div=>sqrt, 2.0, END
+sqrt=>2.0, END
+2.0=>END
+2.0=>END
+
+**********************
+Uniform
+Original 
+sqrt=>X4, END
+X4=>END
+Progeny 
+sqrt=>sqrt, END
+sqrt=>2.0, END
+2.0=>END
+
+**********************
+Node-Replacement
+Original 
+absolute=>sqrt, END
+sqrt=>div, END
+div=>5.0, 2.0, END
+5.0=>END
+2.0=>END
+Progeny 
+absolute=>sqrt, END
+sqrt=>div, END
+div=>X9, 2.0, END
+X9=>END
+2.0=>END
+
+**********************
+Uniform
+Original 
+add=>tan, sqrt, END
+tan=>cos, END
+cos=>X8, END
+X8=>END
+sqrt=>sub, END
+sub=>X8, X7, END
+X8=>END
+X7=>END
+Progeny 
+add=>tan, sqrt, END
+tan=>cos, END
+cos=>absolute, END
+absolute=>tan, END
+tan=>X0, END
+X0=>END
+sqrt=>sub, END
+sub=>X8, X7, END
+X8=>END
+X7=>END
+
+**********************
+Node-Replacement
+Original 
+cos=>sin, END
+sin=>sin, END
+sin=>X12, END
+X12=>END
+Progeny 
+cos=>sin, END
+sin=>sin, END
+sin=>X2, END
+X2=>END
+
+**********************
+Node-Replacement
+Original 
+sqrt=>X1, END
+X1=>END
+Progeny 
+sqrt=>0.0, END
+0.0=>END
+
+**********************
+Node-Replacement
+Original 
+div=>X10, 2.0, END
+X10=>END
+2.0=>END
+Progeny 
+div=>X10, X0, END
+X10=>END
+X0=>END
+
+0 gen 
